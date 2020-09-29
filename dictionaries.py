@@ -9,14 +9,14 @@ items = {
              "helps with": "English"
              },
   "Calculator": {"description": "A scientific calculator for"
-                  "all you math needs",
+                 "all you math needs",
                  "helps with": "Math"
                  },
   "Textbook": {"description": "A history textbook",
                "helps with": "History"
                },
   "French-English dictionary": {"description": "Like"
-                                 "Google translate in book form",
+                                "Google translate in book form",
                                 "helps with": "French"
                                 }
 }
