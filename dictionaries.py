@@ -37,7 +37,8 @@ locations = {
 characters = {"Mr.Belle": "math teacher",
               "Mr.Potvin": "french teacher",
               "Mme.Sexon": "science teacher",
-              "Mrs.Repski": "english teacher"}
+              "Mrs.Repski": "english teacher"
+}
 
 # Descriptions for items
 for item, info in items.items():
