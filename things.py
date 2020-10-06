@@ -4,7 +4,7 @@
 # Dictionaries for items, characters and locations in game
 
 # Dictionary of items
-items = {
+items_info = {
   "Pencil": {"description": "A pencil usefull for writing essays",
              "helps with": "English"
              },
@@ -41,7 +41,7 @@ characters = {"Mr.Belle": "math teacher",
 }
 
 # Descriptions for items
-for item, info in items.items():
+for item, info in items_info.items():
     print(f"\nItem name: {item}")
     print(f"\tDescription: {info['description']}")
     print(f"\tHelps with: {info['helps with']}")
