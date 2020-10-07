@@ -8,7 +8,7 @@ knowledge = []
 cheats = []
 items = {}
 
-# Message functions 
+# Message functions
 # Message for look path
 message_1 = ("You look around your room and see your desk and bookshelf\n"
              "Look in one of these or leave? \n>")
@@ -23,7 +23,8 @@ message_3 = ("You see a calculator and a pencil, take them?\n>")
 # Message for cheat/study path
 subject_message = ("What sublect? (English, Science, Math, Social)\n>")
 
-#Functions for adding items
+
+# Functions for adding items
 def add_pencil():
     items['Pencil'] = {"description": "A pencil usefull for writing essays",
                        "helps with": "English"
@@ -47,6 +48,7 @@ def add_textbook():
     items['Textbook'] = {"description": "A history textbook",
                          "helps with": "History"
                          }
+
 
 # Main function
 # Turns left is how many study/cheat actions the player can take
@@ -125,7 +127,7 @@ def first_day(turns_left, bookshelf, desk):
                         if choice.lower() == "desk" and \
                            desk == False:
                             print("You've already looked there")
-                     # Leave path
+                    # Leave path
                     if action.lower() == "leave":
                         active = False
                         break
@@ -147,9 +149,8 @@ def first_day(turns_left, bookshelf, desk):
                 print("I don't know what you mean")
                 continue
 
+
 print("Type 'done' to skip the rest of your turns")
 print("Type 'inventory' to check inventory")
 print()
 first_day(4, True, True)
-
-    
